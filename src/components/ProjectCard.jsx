@@ -15,6 +15,9 @@ const Wrapper = styled.a`
   &:hover {
     transform: translateY(-5px);
   }
+  @media (max-width: 600px) {
+    flex-direction: column;
+  }
 `
 
 const Text = styled.div`
