@@ -28,6 +28,9 @@ const Text = styled.div`
 const Title = styled.div`
   ${tw`text-white uppercase text-2xl md:text-3xl xl:text-4xl tracking-wide font-sans pt-8`};
   text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  @media (max-width: 600px) {
+    padding: 0;
+  }
 `
 const Image = styled.div`
   min-width: 50%;
@@ -36,6 +39,11 @@ const Image = styled.div`
   background-size: cover;
   background-position: 30% 50%;
   border-radius: 9px;
+  @media (max-width: 600px) {
+    min-width: 271px;
+    background-position: 48% 10%;
+    margin-top: 32px;
+  }
 `
 
 
