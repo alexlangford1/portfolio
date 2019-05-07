@@ -3,6 +3,10 @@ import styled from 'styled-components'
 import tw from 'tailwind.macro'
 import { Parallax } from 'react-spring/renderprops-addons.cjs'
 
+import image from '../images/Untitled.png'
+
+
+
 // Components
 import Layout from '../components/Layout'
 import ProjectCard from '../components/ProjectCard'
@@ -17,13 +21,13 @@ import Projects from '../views/Projects'
 import About from '../views/About'
 import Contact from '../views/Contact'
 
-import avatar from '../images/avatar.jpg'
+import avatar from '../images/alex.jpg'
 
 const ProjectsWrapper = styled.div`
   ${tw`flex flex-wrap justify-between mt-8`};
   display: grid;
   grid-gap: 4rem;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, .7fr);
   @media (max-width: 1200px) {
     grid-gap: 3rem;
   }
@@ -38,7 +42,8 @@ const AboutHero = styled.div`
 `
 
 const Avatar = styled.img`
-  ${tw`rounded-full w-32 xl:w-48 shadow-lg h-auto`};
+  ${tw`rounded-full w-32 xl:w-32 shadow-lg h-32`};
+  object-fit: cover;
 `
 
 const AboutSub = styled.span`
@@ -55,7 +60,10 @@ const ContactText = styled.p`
 
 const Footer = styled.footer`
   ${tw`text-center text-grey absolute pin-b p-6 font-sans text-md lg:text-lg`};
+  color: rgba(0,0,0,.9);
 `
+
+
 
 const Index = () => (
   <>
@@ -63,47 +71,37 @@ const Index = () => (
     <Parallax pages={5}>
       <Hero offset={0}>
         <BigTitle>
-          Hello, <br /> I'm John Doe.
+          Hello, <br /> I'm Alex Langford.
         </BigTitle>
-        <Subtitle>I'm creating noice web experiences for the next generation of consumer-facing companies.</Subtitle>
+       <Subtitle>I'm creating awesome web experiences for the next generation of consumer-facing companies.</Subtitle>
+       
       </Hero>
       <Projects offset={1}>
         <Title>Projects</Title>
         <ProjectsWrapper>
           <ProjectCard
-            title="Freiheit"
-            link="https://www.behance.net/gallery/58937147/Freiheit"
+            title="Wander"
+            link="https://wander-dev.com"
             bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
+            image={`${image}`}
           >
-            This project is my entry to Adobe's #ChallengeYourPerspective contest.
+            This project is a vacation planner, My personal project while at DevMountain.
           </ProjectCard>
           <ProjectCard
-            title="Harry Potter"
+            title="Group Project"
             link="https://www.behance.net/gallery/52915793/Harry-Potter"
-            bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
+            bg="linear-gradient(to left, #D4145A 0%, #FBB03B 100%)"
           >
-            I entered the DOCMA 2017 award with this Harry Potter inspired image.
+            
+            Super cool project
           </ProjectCard>
-          <ProjectCard
-            title="Tomb Raider"
-            link="https://www.behance.net/gallery/43907099/Tomb-Raider"
-            bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
-          >
-            Recreation of a Tomb Raider Wallpaper (Fan Art)
-          </ProjectCard>
-          <ProjectCard
-            title="Eagle"
-            link="https://www.behance.net/gallery/38068151/Eagle"
-            bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
-          >
-            A fantasy image manipulation relocating the habitat of wild animals.
-          </ProjectCard>
+         
         </ProjectsWrapper>
       </Projects>
       <About offset={3}>
         <Title>About</Title>
         <AboutHero>
-          <Avatar src={avatar} alt="John Doe" />
+          <Avatar src={avatar} alt="Alex Langford" />
           <AboutSub>
             The English language can not fully capture the depth and complexity of my thoughts. So I'm incorporating
             Emoji into my speech to better express myself. Winky face.
@@ -121,15 +119,14 @@ const Index = () => (
         <Inner>
           <Title>Get in touch</Title>
           <ContactText>
-            Say <a href="mailto:plizNoSp4m@domain.tld">Hi</a> or find me on other platforms:{' '}
-            <a href="https://dribbble.com/LekoArts">Dribbble</a> &{' '}
-            <a href="https://www.instagram.com/lekoarts.de/">Instagram</a>
+            Say <a href="mailto:alexlangford1@live.com">Hi</a> or find me on other platforms:{' '}
+            <a href="https://www.linkedin.com/in/alex-langford/">LinkedIn</a> &{' '}
+            <a href="https://github.com/alexlangford1/">GitHub</a>
           </ContactText>
         </Inner>
         <Footer>
-          &copy; 2019 by Gatsby Starter Portfolio Cara.{' '}
-          <a href="https://github.com/LekoArts/gatsby-starter-portfolio-cara">Github Repository</a>. Made by{' '}
-          <a href="https://www.lekoarts.de">LekoArts</a>.
+          &copy; 2019 by Alex Langford.{' '}
+          <a href="https://github.com/alexlangford1/">Github Repository</a>.
         </Footer>
       </Contact>
     </Parallax>
