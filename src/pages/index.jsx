@@ -106,7 +106,7 @@ const Index = () => (
                     <ProjectCard
                         title="Wander"
                         link="https://wander-dev.com"
-                        bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
+                        bg="linear-gradient(to bottom, #13333f 0%, #2b2424 100%)"
                         image={`${image}`}
                     >
                         A full-stack, user-friendly, vacation planner, My
@@ -117,7 +117,7 @@ const Index = () => (
                     <ProjectCard
                         title="Group Project"
                         link="https://www.behance.net/gallery/52915793/Harry-Potter"
-                        bg="linear-gradient(to left, #D4145A 0%, #FBB03B 100%)"
+                        bg="linear-gradient(to bottom, #13333f 0%, pink 100%)"
                     >
                         Super cool project
                     </ProjectCard>
