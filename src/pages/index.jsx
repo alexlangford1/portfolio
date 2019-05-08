@@ -19,7 +19,7 @@ import Projects from "../views/Projects"
 import About from "../views/About"
 import Contact from "../views/Contact"
 
-import avatar from "../images/alex.jpg"
+import avatar from "../images/alex2.jpg"
 
 const ProjectsWrapper = styled.div`
     ${tw`flex flex-wrap justify-between mt-8`};
@@ -80,7 +80,7 @@ const Logo = styled.div`
 const Index = () => (
     <>
         <Layout />
-        <Parallax pages={4.4}>
+        <Parallax pages={5}>
             <Hero offset={0}>
                 <BigTitle>
                     Hello, <br /> I'm Alex Langford.
@@ -237,7 +237,7 @@ const Index = () => (
                     </Logo>
                 </Logos>
             </Projects>
-            <About offset={2.7}>
+            <About offset={3}>
                 <Title>About</Title>
                 <AboutHero>
                     <Avatar src={avatar} alt="Alex Langford" />
@@ -255,12 +255,12 @@ const Index = () => (
                     I really enjoy a good round of golf, or just about any sport out there.<br/>
                     <br/>
                     If you would like to find out more about me, please feel free to <a href="mailto:alexlangford1@live.com">contact</a> me! I would love to hear from you!
-                    
+
                     
 
                 </AboutDesc>
             </About>
-            <Contact offset={3.5}>
+            <Contact offset={4}>
                 <Inner>
                     <Title>Get in touch</Title>
                     <ContactText>
