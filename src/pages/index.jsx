@@ -40,7 +40,7 @@ const AboutHero = styled.div`
 `
 
 const Avatar = styled.img`
-    ${tw`rounded-full w-32 xl:w-32 shadow-lg h-32`};
+    ${tw`rounded-full w-48 xl:w-48 shadow-lg h-48`};
     object-fit: cover;
 `
 
@@ -59,6 +59,7 @@ const ContactText = styled.p`
 const Footer = styled.footer`
     ${tw`text-center text-grey absolute pin-b p-6 font-sans text-md lg:text-lg`};
     color: rgba(0, 0, 0, 0.9);
+    margin-bottom: 10px;
 `
 const Logos = styled.div`
     display: flex;
@@ -241,20 +242,22 @@ const Index = () => (
                 <AboutHero>
                     <Avatar src={avatar} alt="Alex Langford" />
                     <AboutSub>
-                        The English language can not fully capture the depth and
-                        complexity of my thoughts. So I'm incorporating Emoji
-                        into my speech to better express myself. Winky face.
+                    Hi, I'm Alex.
                     </AboutSub>
                 </AboutHero>
                 <AboutDesc>
-                    You know the way you feel when you see a picture of two
-                    otters holding hands? That's how you're gonna feel every
-                    day. My mother cried the day I was born because she knew
-                    she’d never be prettier than me. You should make me your
-                    campaign manager. I was born for politics. I have great hair
-                    and I love lying. Captain? The kids want to know where
-                    Paulie the Pigeon is. I told them he got sucked up into an
-                    airplane engine, is that all right?
+                     
+                    I am a full stack web developer from Lehi, Utah with a passion for learning and writing cool code. <br/>
+                    I enjoy the challenge of problem solving that comes from web developing,
+                    and the frequent learning experiences that come with it.<br/>
+                    <br/>
+                    When I'm not coding I am spending time with my beautiful wife Solinda, and my two kids.
+                    I really enjoy a good round of golf, or just about any sport out there.<br/>
+                    <br/>
+                    If you would like to find out more about me, please feel free to <a href="mailto:alexlangford1@live.com">contact</a> me! I would love to hear from you!
+                    
+                    
+
                 </AboutDesc>
             </About>
             <Contact offset={3.5}>
@@ -266,7 +269,7 @@ const Index = () => (
                         <a href="https://www.linkedin.com/in/alex-langford/">
                             LinkedIn
                         </a>{" "}
-                        & <a href="https://github.com/alexlangford1/">GitHub</a>
+                        & <a href="https://twitter.com/Alex_Langford1">Twitter</a>
                     </ContactText>
                 </Inner>
                 <Footer>
