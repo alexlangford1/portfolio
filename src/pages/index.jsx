@@ -66,6 +66,9 @@ const Logos = styled.div`
     flex-direction: row;
     max-width: 50vw;
     flex-wrap: wrap;
+    @media (max-width: 600px) {
+        max-width: 90vw;
+    }
 `
 
 const Logo = styled.div`
@@ -75,6 +78,10 @@ const Logo = styled.div`
     color: white;
     font-family: "open sans";
     margin: 50px 20px;
+    @media (max-width: 600px) {
+        height: 100px;
+        width: 100px;
+    }
 `
 
 const Index = () => (
@@ -99,10 +106,10 @@ const Index = () => (
                         bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
                         image={`${image}`}
                     >
-                        A full-stack, user-friendly, vacation planner, My personal project
-                        while at DevMountain. 
-                        <br/> React | Redux | PosgreSQL | CSS3 | HTML5 | NodeJS | Express | Express Session | Axios | Massive | Bcrypt
-
+                        A full-stack, user-friendly, vacation planner, My
+                        personal project while at DevMountain.
+                        <br /> React | Redux | PosgreSQL | CSS3 | HTML5 | NodeJS
+                        | Express | Express Session | Axios | Massive | Bcrypt
                     </ProjectCard>
                     <ProjectCard
                         title="Group Project"
@@ -241,23 +248,26 @@ const Index = () => (
                 <Title>About</Title>
                 <AboutHero>
                     <Avatar src={avatar} alt="Alex Langford" />
-                    <AboutSub>
-                    Hi, I'm Alex.
-                    </AboutSub>
+                    <AboutSub>Hi, I'm Alex.</AboutSub>
                 </AboutHero>
                 <AboutDesc>
-                     
-                    I am a full stack web developer from Lehi, Utah with a passion for learning and writing cool code. <br/>
-                    I enjoy the challenge of problem solving that comes from web developing,
-                    and the frequent learning experiences that come with it.<br/>
-                    <br/>
-                    When I'm not coding I am spending time with my beautiful wife Solinda, and my two kids.
-                    I really enjoy a good round of golf, or just about any sport out there.<br/>
-                    <br/>
-                    If you would like to find out more about me, please feel free to <a href="mailto:alexlangford1@live.com">contact</a> me! I would love to hear from you!
-
-                    
-
+                    I am a full stack web developer from Lehi, Utah with a
+                    passion for learning and writing cool code. <br />
+                    I enjoy the challenge of problem solving that comes from web
+                    developing, and the frequent learning experiences that come
+                    with it.
+                    <br />
+                    <br />
+                    When I'm not coding I am spending time with my beautiful
+                    wife Solinda, and my two kids. I really enjoy a good round
+                    of golf, or just about any sport out there.
+                    <br />
+                    <br />
+                    If you would like to find out more about me, please feel
+                    free to <a href="mailto:alexlangford1@live.com">
+                        contact
+                    </a>{" "}
+                    me! I would love to hear from you!
                 </AboutDesc>
             </About>
             <Contact offset={4}>
@@ -269,7 +279,8 @@ const Index = () => (
                         <a href="https://www.linkedin.com/in/alex-langford/">
                             LinkedIn
                         </a>{" "}
-                        & <a href="https://twitter.com/Alex_Langford1">Twitter</a>
+                        &{" "}
+                        <a href="https://twitter.com/Alex_Langford1">Twitter</a>
                     </ContactText>
                 </Inner>
                 <Footer>
