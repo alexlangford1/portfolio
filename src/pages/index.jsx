@@ -68,6 +68,8 @@ const Logos = styled.div`
     flex-wrap: wrap;
     @media (max-width: 600px) {
         max-width: 90vw;
+        align-items: center;
+        margin-bottom: 200px;
     }
 `
 
@@ -119,7 +121,7 @@ const Index = () => (
                         Super cool project
                     </ProjectCard>
                 </ProjectsWrapper>
-                <Title style={{ marginTop: "200px" }}>Skills</Title>
+                <Title style={{ marginTop: "180px" }}>Skills</Title>
                 <Logos>
                     <Logo>
                         <svg viewBox="0 0 128 128">
