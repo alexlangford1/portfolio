@@ -68,6 +68,7 @@ const Logos = styled.div`
     flex-wrap: wrap;
     @media (max-width: 600px) {
         max-width: 90vw;
+        justify-content: center;
         align-items: center;
         margin-bottom: 200px;
     }
