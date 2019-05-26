@@ -4,7 +4,7 @@ import tw from "tailwind.macro"
 import { Parallax } from "react-spring/renderprops-addons.cjs"
 
 import image from "../images/Untitled.png"
-import image2 from '../images/Capture.PNG'
+import image2 from '../images/Capture.png'
 
 // Components
 import Layout from "../components/Layout"
