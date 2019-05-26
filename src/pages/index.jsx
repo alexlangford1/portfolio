@@ -4,6 +4,7 @@ import tw from "tailwind.macro"
 import { Parallax } from "react-spring/renderprops-addons.cjs"
 
 import image from "../images/Untitled.png"
+import image2 from '../images/Capture.PNG'
 
 // Components
 import Layout from "../components/Layout"
@@ -111,15 +112,17 @@ const Index = () => (
                     >
                         A full-stack, user-friendly, vacation planner, My
                         personal project while at DevMountain.
-                        <br /> React | Redux | PosgreSQL | CSS3 | HTML5 | NodeJS
+                        <br /> React | Redux | PosgreSQL | CSS | HTML | NodeJS
                         | Express | Express Session | Axios | Massive | Bcrypt
                     </ProjectCard>
                     <ProjectCard
-                        title="Group Project"
-                        link="https://www.behance.net/gallery/52915793/Harry-Potter"
+                        title="ShifTrader"
+                        link="https://shiftradr.com"
                         bg="linear-gradient(to bottom, #13333f 0%, pink 100%)"
+                        image={`${image2}`}
                     >
-                        Super cool project
+                        Full CRUD web application that allows employees to post and trade liability of workshifts in a streamlined fashion.   
+                        <br /> React | PosgreSQL | CSS | HTML | NodeJS | Nodemailer | Socket.IO | Express | Express Session | Axios | Massive | Bcrypt
                     </ProjectCard>
                 </ProjectsWrapper>
                 <Title style={{ marginTop: "180px" }}>Skills</Title>
