@@ -116,12 +116,12 @@ const Index = () => (
                         | Express | Express Session | Axios | Massive | Bcrypt
                     </ProjectCard>
                     <ProjectCard
-                        title="ShifTrader"
+                        title="ShifTradr"
                         link="https://shiftradr.com"
                         bg="linear-gradient(to bottom, #13333f 0%, pink 100%)"
                         image={`${image2}`}
                     >
-                        Full CRUD web application that allows employees to post and trade liability of workshifts in a streamlined fashion.   
+                        Full CRUD web application that allows employees to post and trade liability of workshifts in a streamlined fashion.
                         <br /> React | PosgreSQL | CSS | HTML | NodeJS | Nodemailer | Socket.IO | Express | Express Session | Axios | Massive | Bcrypt
                     </ProjectCard>
                 </ProjectsWrapper>
