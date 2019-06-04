@@ -120,7 +120,7 @@ const Index = () => (
                         bg="linear-gradient(to bottom, #13333f 0%, pink 100%)"
                         image={`${image2}`}
                     >
-                        Full CRUD web application that allows employees to post and trade liability of workshifts in a streamlined fashion.
+                        Web application that allows employees to post and trade liability of workshifts in a streamlined fashion.
                         <br /> React Hooks | PosgreSQL | SCSS | NodeJS | Nodemailer | Socket.IO | Express | Axios | Massive | Bcrypt
                     </ProjectCard>
                 </ProjectsWrapper>
