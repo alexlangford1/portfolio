@@ -124,6 +124,8 @@ const Index = () => (
                         <br /> React Hooks | PosgreSQL | SCSS | NodeJS | Nodemailer | Socket.IO | Express | Axios | Massive | Bcrypt
                     </ProjectCard>
                 </ProjectsWrapper>
+                <Title style={{ marginTop: "80px" }}>More coming soon;)</Title>
+
                 <Title style={{ marginTop: "180px" }}>Skills</Title>
                 <Logos>
                     <Logo>
