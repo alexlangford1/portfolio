@@ -110,7 +110,7 @@ const Index = () => (
                         bg="linear-gradient(to bottom, #13333f 0%, #2b2424 100%)"
                         image={`${image}`}
                     >
-                        A user-friendly vacation planner, designed to let users have a easier time organizing and planning vacations with custom budgets, and per-item expense tracking. 
+                        A user-friendly vacation planner, designed to let users have an easier time organizing and planning vacations with custom budgets, and per-item expense tracking. 
                         <br /> React | Redux | PosgreSQL | CSS | NodeJS
                         | Express | Axios | Massive | Bcrypt
                     </ProjectCard>
