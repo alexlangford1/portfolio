@@ -121,7 +121,7 @@ const Index = () => (
                         image={`${image2}`}
                     >
                         Web application that allows employees to post and trade liability of workshifts in a streamlined fashion.
-                        <br /> React Hooks | PosgreSQL | NodeJS | SCSS | Nodemailer | Socket.IO | Express | Axios | Massive | Bcrypt
+                        <br /> React Hooks | PosgreSQL | NodeJS | CSS | Styled Components | Nodemailer | Socket.IO | Express | Axios | Massive | Bcrypt
                     </ProjectCard>
                 </ProjectsWrapper>
                 <Title style={{ marginTop: "80px" }}>More coming soon;)</Title>
