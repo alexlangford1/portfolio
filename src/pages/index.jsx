@@ -124,7 +124,7 @@ const Index = () => (
                         <br /> React Hooks | PosgreSQL | NodeJS | CSS | Styled Components | Nodemailer | Socket.IO | Express | Axios | Massive | Bcrypt
                     </ProjectCard>
                 </ProjectsWrapper>
-                <Title style={{ marginTop: "80px" }}>More coming soon;)</Title>
+                <Title>More coming soon;)</Title>
 
                 <Title style={{ marginTop: "180px" }}>Skills</Title>
                 <Logos>
