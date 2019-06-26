@@ -123,8 +123,8 @@ const Index = () => (
                         Web application that allows employees to post and trade liability of workshifts in a streamlined fashion.
                         <br /> React Hooks | PosgreSQL | NodeJS | CSS | Styled Components | Nodemailer | Socket.IO | Express | Axios | Massive | Bcrypt
                     </ProjectCard>
-                </ProjectsWrapper>
                 <Title>More coming soon;)</Title>
+                </ProjectsWrapper>
 
                 <Title style={{ marginTop: "180px" }}>Skills</Title>
                 <Logos>
