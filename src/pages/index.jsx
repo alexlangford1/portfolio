@@ -60,7 +60,7 @@ const ContactText = styled.p`
 const Footer = styled.footer`
     ${tw`text-center text-grey absolute pin-b p-6 font-sans text-md lg:text-lg`};
     color: rgba(0, 0, 0, 0.9);
-    margin-bottom: 10px;
+    margin-bottom: 11px;
 `
 const Logos = styled.div`
     display: flex;
